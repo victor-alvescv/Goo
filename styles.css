@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px solid lightgray;
+    padding: 80px 80px  80px 80px;
+    
+
+    
+}   
+.box {
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+   
+}
+
+.box-small {
+    height: 50px;
+    
+}
+
+.tiny-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box-tiny {
+    height:50px;
+    width: 30%;
+}
+
+
+
+.box-wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-large{
+   width: 45%;
+}
+
+.row{
+   width: 100%;
+   display:flex;
+   justify-content: space-between;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+
+
+
+
+    
+
